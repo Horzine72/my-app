@@ -13,7 +13,7 @@ import { useState, useEffect } from 'react';
 export default function MyApp() {
 
   const [data, setData] = useState(null);
-
+//test 
   useEffect(() => {
     fetch('/api/getProducts')
       .then((res) => {
