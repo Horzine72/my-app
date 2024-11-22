@@ -15,7 +15,7 @@ export default function MyApp() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/getProducts')
+    fetch('/api/getProducts')
       .then((res) => {
         if (!res.ok) {
           throw new Error('Network response was not ok');

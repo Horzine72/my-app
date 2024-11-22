@@ -5,7 +5,7 @@ export async function GET(req, res) {
         // =================================================
 
         const { MongoClient } = require('mongodb');
-        //const url = 'mongodb://root:example@localhost:27017/';
+
         const url = process.env.DB_ADDRESS
         const client = new MongoClient(url);
         const dbName = 'app'; // database name
@@ -21,13 +21,13 @@ export async function GET(req, res) {
 
 //==========================================================
 
- 
 
- 
 
- 
 
- 
+
+
+
+
 
  
 

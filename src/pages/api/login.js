@@ -24,7 +24,7 @@ export async function GET(req, res) {
 
   const { MongoClient } = require('mongodb');
 
-  //const url = 'mongodb://root:example@localhost:27017/';
+
 
         const url = process.env.DB_ADDRESS
 
